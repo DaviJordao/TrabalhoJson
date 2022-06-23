@@ -1,0 +1,10 @@
+var jsonTrabalho = [
+    {"id": 1, "lutador": "Lutador Brasileiro:" ,"descricao": "Descricao: Lutador Faixa preta em muay thai"},
+ 
+  ]
+
+  function escreveBrasileiro(brasileiro){
+    console.log("Selecionou o Lutador 'Brasileiro'");
+    let personagemFiltrado = jsonTrabalho.filter(filtroBrasileiro);
+    
+  }

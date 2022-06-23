@@ -1,0 +1,11 @@
+var jsonTrabalho = [
+    {"id": 1, "lutador": "Lutador Brasileiro:" ,"descricao": "Descricao: Lutador Faixa preta em muay thai"},
+   
+  ]
+  function duplicaHtml(duplicar_html) {
+    duplicar_html = duplicar_html.sort();
+      var duplicarel = "<div>";
+      for (let i = 0; i < duplicar_html.length; i++) {
+        let cloneform = document.querySelector("#criarlutador").cloneNode(true)
+        document.querySelector("#criarlutador").after(cloneform)
+      }
